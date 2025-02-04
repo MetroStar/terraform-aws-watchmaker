@@ -5,7 +5,7 @@ VERSION ?= $(shell grep -E '^current_version' .bumpversion.cfg | sed 's/^.*= //'
 
 SHELL := /bin/bash
 
--include $(shell curl -sSL -o .tardigrade-ci "https://raw.githubusercontent.com/plus3it/tardigrade-ci/master/bootstrap/Makefile.bootstrap"; echo .tardigrade-ci)
+-include $(shell curl -sSL -o .tardigrade-ci "https://raw.githubusercontent.com/MetroStar/tardigrade-ci/master/bootstrap/Makefile.bootstrap"; echo .tardigrade-ci)
 
 cfn/version: guard/program/yq
 cfn/version:

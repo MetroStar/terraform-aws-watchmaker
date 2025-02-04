@@ -220,7 +220,7 @@ variable "PythonInstaller" {
 variable "WatchmakerBootstrapper" {
   type        = string
   description = "(Optional) URL to the Watchmaker PowerShell bootstrapper for Windows"
-  default     = "https://raw.githubusercontent.com/plus3it/watchmaker/master/docs/files/bootstrap/watchmaker-bootstrap.ps1"
+  default     = "https://raw.githubusercontent.com/MetroStar/watchmaker/master/docs/files/bootstrap/watchmaker-bootstrap.ps1"
 }
 
 variable "WatchmakerConfig" {

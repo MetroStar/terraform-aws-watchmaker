@@ -1,5 +1,5 @@
 
-[![License](https://img.shields.io/github/license/plus3it/terraform-aws-watchmaker.svg)](./LICENSE)
+[![License](https://img.shields.io/github/license/MetroStar/terraform-aws-watchmaker.svg)](./LICENSE)
 [![pullreminders](https://pullreminders.com/badge.svg)](https://pullreminders.com?ref=badge)
 
 # Watchmaker AWS Terraform Module

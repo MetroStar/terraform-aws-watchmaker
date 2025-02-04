@@ -375,7 +375,7 @@ Parameters:
   WatchmakerBootstrapper:
     AllowedPattern: '^$|^http[s]?://.*\.ps1$'
     Default: >-
-      https://raw.githubusercontent.com/plus3it/watchmaker/master/docs/files/bootstrap/watchmaker-bootstrap.ps1
+      https://raw.githubusercontent.com/MetroStar/watchmaker/master/docs/files/bootstrap/watchmaker-bootstrap.ps1
     Description: URL to the Watchmaker PowerShell bootstrapper for Windows
     Type: String
   WatchmakerComputerName:
